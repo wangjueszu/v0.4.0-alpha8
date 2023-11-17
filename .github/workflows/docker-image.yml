@@ -42,7 +42,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: wangovst/v0.4.0-alpha8:latest}
+          images: wangovst/v0.4.0-alpha8
           tags: |
             latest
             ${{ github.ref }}
