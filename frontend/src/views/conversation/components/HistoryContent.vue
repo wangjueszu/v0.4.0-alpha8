@@ -14,6 +14,7 @@
           <ChatGPTAvatar class="ml-2 mr-1" :model="convHistory?.current_model" :size="20" />
           {{ getChatModelNameTrans(convHistory?.current_model || null) }} ({{ t(`sources.${convHistory?.source}`) }})
         </n-text>
+        <n-text> 点击这里添加<a href="https://b1n.net/6HmF0">Sydney-Ai</a> 加入交流微信群 </n-text>
         <n-button v-if="_fullscreen" class="absolute left-4 hide-in-print" text @click="toggleFullscreenHistory">
           <template #icon>
             <n-icon>
